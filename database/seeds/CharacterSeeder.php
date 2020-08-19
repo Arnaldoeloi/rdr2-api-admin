@@ -24,6 +24,7 @@ class CharacterSeeder extends Seeder
         foreach($characters as $char){
             $character = Character::create([
                 'id'            => $char->id,
+                'gang_id'       => $gang->id,
                 'name'          => $char->name,
                 'gender'        => $char->gender,
                 'age'           => $char->age,
@@ -47,6 +48,7 @@ class CharacterSeeder extends Seeder
                 $nickname = new Nickname(['nickname'=>$n]); 
                 $character->nicknames()->save($nickname);
             }
+
         }
     }
 }
