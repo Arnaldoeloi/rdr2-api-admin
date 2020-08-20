@@ -12,16 +12,20 @@ class Character extends Model
      * @var array
      */
     protected $fillable = [
+        'id',
+        'gang_id',
         'name',
         'gender',
         'age',
         'status',
         'cause_of_death',
-        'death_of_birth',
+        'date_of_birth',
+        'date_of_death',
         'nationality',
         'voiced_by',
+        'description',
         'image',
-        'artwork'
+        'artwork',
     ];
 
     public function gang()

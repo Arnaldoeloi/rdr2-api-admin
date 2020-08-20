@@ -39,6 +39,40 @@
     "image": "https://vignette.wikia.nocookie.net/reddeadredemption/images/8/87/RDR2_Dutch_van_der_Linde_PC.png/revision/latest/scale-to-width-down/336?cb=20191216204516",
     "artwork": "https://www.rockstargames.com/reddeadredemption2/dist/img/global/features/gang/characters/e0d4a049711def6b9a2c0ace29adda0a.png"
 }, {
+    "id": 2,
+    "gang_id": 1,
+    "name": "Arthur Morgan",
+    "nicknames": [
+        "Tacitus Kilgore",
+        "Black Lung",
+        "Cowpoke",
+        "English",
+        "Englishman",
+        "Pretty Boy",
+        "Arthur Callahan",
+        "Fenton",
+        "Leviticus Cornwall"
+    ],
+    "gender": "male",
+    "age": "36",
+    "status": "deceased",
+    "date_of_birth": "1863",
+    "date_of_death": "1899",
+    "cause_of_death": "Either left to die by complications from Tuberculosis and a fight with Micah Bell or stabbed to death by Micah Bell.",
+    "nationality": "American",
+    "voiced_by": "Roger Clark",
+    "quotes": [
+        "We\u0027re thieves in a world that don\u0027t want us no more.",
+        "You don’t get to live a bad life and have good things happen to you.", "Be loyal to what matters.",
+        "I guess...I'm afraid.",
+        "You are the only feller who got half of their brain eaten by wolves and ended up more intelligent.",
+        "I gave you all I had. I did.",
+        "John made it... He's the only one. Rest of us... no. But... I tried. In the end... I did."
+    ],
+    "description": "Dutch\u0027s most dependable and capable enforcer since he was a boy, the outlaw life is all Arthur has ever known. Sharp, cool-headed, and ruthless, but with his own sense of honor. A man who gets the job done.",
+    "image": "https://vignette.wikia.nocookie.net/reddeadredemption/images/5/52/RDR2_Arthur_Morgan_Default.jpg/revision/latest/scale-to-width-down/350?cb=20200602191534",
+    "artwork": "https://www.rockstargames.com/reddeadredemption2/dist/img/global/features/gang/characters/68c07fe236b1b2a3a7548735eb629ae1.png"
+}, {
     "id": 3,
     "gang_id": 1,
     "name": "Hosea Matthews",
@@ -478,38 +512,4 @@
     "description": "A widow who is hellbent on taking revenge upon those who killed her husband. Relentless and afraid of nothing and no one. The wrong woman to cross, but very loyal to those she loves.",
     "image": "https://vignette.wikia.nocookie.net/reddeadredemption/images/c/cd/Screen_Shot_2019-08-25_at_2.25.05_pm.png/revision/latest/scale-to-width-down/350?cb=20190825042324",
     "artwork": "https://www.rockstargames.com/reddeadredemption2/dist/img/global/features/gang/characters/032245b2d31b98f1f1f84dc0a7d4c083.png"
-}, {
-    "id": 2,
-    "gang_id": 1,
-    "name": "Arthur Morgan",
-    "nicknames": [
-        "Tacitus Kilgore",
-        "Black Lung",
-        "Cowpoke",
-        "English",
-        "Englishman",
-        "Pretty Boy",
-        "Arthur Callahan",
-        "Fenton",
-        "Leviticus Cornwall"
-    ],
-    "gender": "male",
-    "age": "36",
-    "status": "deceased",
-    "date_of_birth": "1863",
-    "date_of_death": "1899",
-    "cause_of_death": "Either left to die by complications from Tuberculosis and a fight with Micah Bell or stabbed to death by Micah Bell.",
-    "nationality": "American",
-    "voiced_by": "Roger Clark",
-    "quotes": [
-        "We\u0027re thieves in a world that don\u0027t want us no more.",
-        "You don’t get to live a bad life and have good things happen to you.", "Be loyal to what matters.",
-        "I guess...I'm afraid.",
-        "You are the only feller who got half of their brain eaten by wolves and ended up more intelligent.",
-        "I gave you all I had. I did.",
-        "John made it... He's the only one. Rest of us... no. But... I tried. In the end... I did."
-    ],
-    "description": "Dutch\u0027s most dependable and capable enforcer since he was a boy, the outlaw life is all Arthur has ever known. Sharp, cool-headed, and ruthless, but with his own sense of honor. A man who gets the job done.",
-    "image": "https://vignette.wikia.nocookie.net/reddeadredemption/images/5/52/RDR2_Arthur_Morgan_Default.jpg/revision/latest/scale-to-width-down/350?cb=20200602191534",
-    "artwork": "https://www.rockstargames.com/reddeadredemption2/dist/img/global/features/gang/characters/68c07fe236b1b2a3a7548735eb629ae1.png"
 }]
