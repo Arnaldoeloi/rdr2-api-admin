@@ -16,10 +16,10 @@ class CharacterController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $characters = Character::all();
-        return (new CharacterCollection($characters));
+        $characters = $this->queryFilter($request);
+        return new CharacterCollection($characters->offset(10)->get());
     }
 
     /**
@@ -65,5 +65,10 @@ class CharacterController extends Controller
     public function destroy(Character $character)
     {
         //
+    }
+
+    private function queryFilter(Request $request){
+        $characters = Character::query();
+        return $characters;    
     }
 }

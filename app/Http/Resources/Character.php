@@ -17,6 +17,7 @@ class Character extends JsonResource
     public function toArray($request)
     {
         return [
+            'id'                       => $this->id,
             'name'                     => $this->name,
             'gang'                     => $this->gang ? $this->gang->name : null,
             'gender'                   => $this->gender,
