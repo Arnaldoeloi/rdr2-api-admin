@@ -17,7 +17,7 @@ class CreateQuotesTable extends Migration
             $table->bigIncrements('id');
 
             $table->text('quote');
-            $table->bigInteger('character_id');
+            $table->bigInteger('character_id')->unsigned();
             $table->foreign('character_id')->references('id')->on('characters');
 
             $table->softDeletes();

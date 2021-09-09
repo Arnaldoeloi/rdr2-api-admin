@@ -16,7 +16,7 @@ class CreateCharactersTable extends Migration
         Schema::create('characters', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->bigInteger('gang_id')->nullable();
+            $table->bigInteger('gang_id')->unsigned()->nullable();
             $table->foreign('gang_id')->references('id')->on('gangs');
 
             $table->string('name');

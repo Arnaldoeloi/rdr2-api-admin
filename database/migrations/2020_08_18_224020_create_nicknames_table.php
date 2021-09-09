@@ -17,7 +17,7 @@ class CreateNicknamesTable extends Migration
             $table->bigIncrements('id');
 
             $table->string('nickname');
-            $table->bigInteger('character_id');
+            $table->bigInteger('character_id')->unsigned();
             $table->foreign('character_id')->references('id')->on('characters');
 
             $table->softDeletes();
