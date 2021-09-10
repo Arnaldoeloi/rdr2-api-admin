@@ -28,6 +28,7 @@ class Character extends Model
         'artwork',
     ];
 
+
     public function gang()
     {
         return $this->belongsTo('App\Gang');

@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('characters', 'CharacterController');
+Route::resource('nicknames', 'NicknameController');
+Route::resource('gangs', 'GangController');
