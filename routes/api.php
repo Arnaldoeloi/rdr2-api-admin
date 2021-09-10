@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('characters', 'CharacterController', ['except' => ['store, update, delete']]);
+Route::resource('characters', 'CharacterController');
